@@ -1,3 +1,10 @@
+/target/*
+/com.tugalsan.app.helloworld-shared/target/*
+/com.tugalsan.app.helloworld-client/target/*
+/com.tugalsan.app.helloworld-server/target/*
+
+
+
 # Compiled class file
 *.class
 
