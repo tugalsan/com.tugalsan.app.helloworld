@@ -1,0 +1,4 @@
+--patch-module
+com.tugalsan.app.helloworld.shared=_
+--add-reads
+com.tugalsan.app.helloworld.shared=ALL-UNNAMED
