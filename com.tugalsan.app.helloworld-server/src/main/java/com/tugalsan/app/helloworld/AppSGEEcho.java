@@ -16,7 +16,7 @@ public class AppSGEEcho extends TS_SGWTExecutor {
     @Override
     public TGS_Tuple2<Boolean, Object> validate(HttpServletRequest rq, TGS_SGWTFuncBase funcBase) {
         var f = (AppSGFEcho) funcBase;
-        var u_loginCard = TS_LibLoginCardUtils.get(TS_LibBootUtils.killTrigger, rq, f);
+        var u_loginCard = TS_LibLoginCardUtils.get(servletKillTrigger, rq, f);
         if (u_loginCard.isExcuse()) {
             var msg = "loginCard==" + u_loginCard.excuse().getMessage() + ":" + funcBase.getInput_url();
             f.setExceptionMessage(msg);
