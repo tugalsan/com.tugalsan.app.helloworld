@@ -24,33 +24,13 @@
             <classifier>sources</classifier>
         </dependency>
         <dependency>
-            <groupId>com.google.jsinterop</groupId>
-            <artifactId>base</artifactId>
-            <version>1.0.3</version><!-- 1.0.0 was working -->
-        </dependency>
-        <dependency>
             <groupId>org.gwtproject</groupId>
             <artifactId>gwt-user</artifactId>
         </dependency>
         <dependency>
             <groupId>org.gwtproject</groupId>
             <artifactId>gwt-dev</artifactId>
-            <exclusions>
-                <exclusion>
-                    <groupId>com.google.code.findbugs</groupId>
-                    <artifactId>jsr305</artifactId>
-                </exclusion>
-                <exclusion>
-                    <groupId>commons-io</groupId>
-                    <artifactId>commons-io</artifactId>
-                </exclusion>
-            </exclusions>
         </dependency>
-        <dependency>
-            <groupId>commons-io</groupId>
-            <artifactId>commons-io</artifactId>
-            <version>2.19.0</version> <!-- poi version 5 needs it, becuase servlet-upload and gwt messes up -->
-        </dependency>    
         <dependency>
             <groupId>${project.groupId}</groupId>
             <artifactId>com.tugalsan.lib.login</artifactId>
