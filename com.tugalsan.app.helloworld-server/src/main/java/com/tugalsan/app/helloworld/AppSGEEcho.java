@@ -1,13 +1,12 @@
 package com.tugalsan.app.helloworld;
 
 import com.tugalsan.api.log.server.*;
-import com.tugalsan.api.tuple.client.*;
 import com.tugalsan.api.servlet.gwt.client.*;
 import com.tugalsan.api.servlet.gwt.server.*;
 import com.tugalsan.api.thread.server.sync.TS_ThreadSyncTrigger;
 import com.tugalsan.app.helloworld.sg.AppSGFEcho;
 import com.tugalsan.lib.login.server.*;
-import javax.servlet.http.*;
+import module javax.servlet.api;
 
 public class AppSGEEcho extends TS_SGWTExecutor {
 
