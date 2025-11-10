@@ -1,7 +1,7 @@
 package com.tugalsan.app.helloworld.sg;
 
 import com.google.gwt.user.client.rpc.*;
-import com.tugalsan.api.servlet.gwt.client.*;
+import com.tugalsan.api.servlet.gwt.webapp.client.*;
 
 public class AppSGFEcho extends TGS_SGWTFuncBase implements IsSerializable {
 

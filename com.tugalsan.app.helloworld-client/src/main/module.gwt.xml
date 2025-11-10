@@ -43,7 +43,7 @@
     <inherits name="com.tugalsan.lib.scale.module"/>
     <inherits name="com.tugalsan.lib.rql.module"/>
     <inherits name="com.tugalsan.api.network.module"/>
-    <inherits name="com.tugalsan.api.servlet.gwt.module"/>
+    <inherits name="com.tugalsan.api.servlet.gwt.webapp.module"/>
     <inherits name="com.tugalsan.api.charset.module"/>
     <inherits name="com.tugalsan.api.sql.col.typed.module"/>
     <inherits name="com.tugalsan.api.sql.cell.module"/>

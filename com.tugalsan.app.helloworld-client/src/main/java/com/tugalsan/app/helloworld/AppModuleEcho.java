@@ -10,7 +10,7 @@ import com.tugalsan.api.gui.client.panel.*;
 import com.tugalsan.api.gui.client.widget.*;
 import com.tugalsan.api.icon.client.*;
 import com.tugalsan.api.log.client.*;
-import com.tugalsan.api.servlet.gwt.client.TGC_SGWTCalller;
+import com.tugalsan.api.servlet.gwt.webapp.client.TGC_SGWTCalller;
 import com.tugalsan.lib.boot.client.*;
 import com.tugalsan.app.helloworld.sg.*;
 

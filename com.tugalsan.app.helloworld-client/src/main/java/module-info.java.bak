@@ -12,7 +12,7 @@ module com.tugalsan.app.helloworld.client {
     requires com.tugalsan.api.log;
     requires com.tugalsan.api.url;
     requires com.tugalsan.api.file.html;
-    requires com.tugalsan.api.servlet.gwt;
+    requires com.tugalsan.api.servlet.gwt.webapp;
     requires com.tugalsan.api.sql.col.typed;
     requires com.tugalsan.lib.boot;
     requires com.tugalsan.lib.domain;

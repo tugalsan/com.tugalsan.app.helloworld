@@ -11,7 +11,7 @@ module com.tugalsan.app.helloworld.server {
     requires com.tugalsan.api.servlet.url;
     requires com.tugalsan.api.log;
     requires com.tugalsan.api.string;
-    requires com.tugalsan.api.servlet.gwt;
+    requires com.tugalsan.api.servlet.gwt.webapp;
     requires com.tugalsan.api.sql.col;
     requires com.tugalsan.api.sql.tbl;
     requires com.tugalsan.lib.boot;

@@ -2,7 +2,7 @@ package com.tugalsan.app.helloworld;
 
 import com.tugalsan.api.file.common.client.TGS_FileCommonFavIcon;
 import com.tugalsan.api.log.server.TS_Log;
-import com.tugalsan.api.servlet.gwt.server.*;
+import com.tugalsan.api.servlet.gwt.webapp.server.*;
 import com.tugalsan.lib.boot.server.TS_LibBootUtils;
 import java.time.Duration;
 import module javax.servlet.api;
